@@ -43,7 +43,7 @@ app.layout = html.Div([
 # Functions
 
 def generateRandom():
-    data = pd.read_csv(r"Data\data.csv")
+    data = pd.read_csv(r"data.csv")
 
     while True:
         rand_template_index = random.randrange(0, len(data["template"]))
